@@ -1,0 +1,57 @@
+body {
+  width: 250px;
+  padding: 10px;
+}
+
+input[type="text"],
+button {
+  margin-bottom: 10px;
+  width: calc(100% - 10px ); /* Adjusted width to accommodate button padding and borders */
+}
+
+#addLinkButton,
+#deleteLinksButton{
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#goButton{
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 50px;
+}
+
+#addLinkButton:hover,
+#deleteLinksButton:hover,
+#goButton:hover {
+  background-color: #008080;
+}
+
+#addLinkButton:focus,
+#deleteLinksButton:focus,
+#goButton:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px rgba(0, 128, 128, 0.3);
+}
+
+#transactionIdInput {
+  border-radius: 5px;
+  padding: 8px;
+  width: calc(100% - 16px); /* Adjusted width to accommodate padding */
+}
+
+.link-item {
+  margin-bottom: 10px;
+}
+
+.link-item span {
+  margin-left: 5px;
+}
